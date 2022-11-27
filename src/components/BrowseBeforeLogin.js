@@ -2,7 +2,7 @@ import BrowseMain from "./BrowseMain";
 import HeaderContent from "./HeaderContent";
 import NavigationBar from "./NavigationBar";
 
-function Browse() {
+function BrowseBeforeLogin() {
     return (
         <>
             <NavigationBar page="browse" />
@@ -16,4 +16,4 @@ function Browse() {
     );
 }
 
-export default Browse;
+export default BrowseBeforeLogin;

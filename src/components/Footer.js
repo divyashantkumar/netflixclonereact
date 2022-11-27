@@ -1,7 +1,12 @@
 import '../style/footer.css';
 import { FaGlobe } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 function Footer() {
+    const navigate = useNavigate();
+    function handleclick(){
+        navigate('/browse/genre')
+    }
     return (
         <footer>
             <div className="row d-flex justify-content-center">
@@ -31,7 +36,7 @@ function Footer() {
                         <li><a href="#">Account</a></li>
                         <li><a href="#">Ways to Watch</a></li>
                         <li><a href="#">Corporate Information</a></li>
-                        <li><a href="http://localhost:3000/browse/genre/839338">Only on Netflix</a></li>
+                        <li><a className='onlyOnNetflix' onClick={handleclick}>Only on Netflix</a></li>
                     </ul>
                 </div>
                 <div className="col-lg-2 col-sm-3 col-5">

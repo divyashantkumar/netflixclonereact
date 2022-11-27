@@ -28,6 +28,10 @@ footer ul li a:hover{
     text-decoration: underline;
 }
 
+.onlyOnNetflix:hover {
+    cursor: pointer;
+}
+
 footer .languageDropdown {
     padding-left: 35px;
     width: 100px;
