@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.detailPageCont div:first-child {
+    position: relative;
+    height: auto;
+}
+
+.vidHead {
+    position: absolute;    
+    top: 25%;
+    left: 1%;
+}
+
+.detailPageCont div:first-child h1, h3, p {
+    color: white;
+    padding-left:10px;
+}
+
+.detailPageCont div:first-child h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
+
+.vidHead button {
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border: none;
+}
+
+.vidHead button:last-child {
+    background-color: rgb(99, 94, 94);
+    color: white;
+}
+
+.detailPageCont .vidImgCont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(to right, rgba(19, 17, 17, 0.932) 45%, transparent);
+}
+
+.vidImgCont .vidImg {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.trendingSec {
+    background-color: rgb(22, 22, 22);
+    height: 200px;
+}
+
+.trendingSec h1 {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.trendingSec .popularVideos {
+    background-color: transparent;
+    position: relative;
+    top: -42%;
+}
+

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginPageContainer {
+    width: 100%;
+    height: 1150px;
+    position: relative;
+    overflow: hidden;
+    background: rgba(0,0,0,.4);
+    background-image: radial-gradient(transparent 20%, rgba(5, 5, 5, 0.623) 80%);
+}
+
+.banner {
+    width: 100vw;
+    height: 100%;
+    z-index: -10;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main {
+    position: relative;
+    left: 33%;
+    height: 660px;
+    width: 480px;
+    padding: 60px 68px 40px 68px;
+    background-color: #000000b2;
+}
+
+.main h2  {
+    padding-bottom: 20px;
+}
+
+.main h2 , .mb-3{
+    color: white;
+}
+
+.main button {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    background-color: rgb(214, 0, 0) !important;
+    border: none;
+}
+
+.main .mb-3{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mb-3 .form-check {
+    width: 150px;
+}
+
+.signfooterOne {
+    margin-top: 60px;
+    display: flex;
+}
+
+.signfooterOne, .signfooterTwo {
+    color: #737373;
+}
+
+.signfooterOne p {
+    font-size: 19px;
+}
+
+.signfooterOne p:last-child {
+    font-weight: 600;
+    color: white;
+}
+
+.signfooterTwo p {
+    font-size: 16px;
+}
+
+.signfooterTwo a {
+    text-decoration: none;
+}
+
+
+.footerName {
+    padding: 50px 10% 50px 10%;
+    width: 100%;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: #737373;
+    text-align: left;
+}
+
+.footerList ul {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.footerList ul li {
+    list-style-type: none;
+    flex: 1 0 25%;
+}
+
+.footerList ul li a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.footerList ul li a:hover {
+    text-decoration: underline;
+}

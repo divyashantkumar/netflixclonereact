@@ -1,0 +1,114 @@
+.landingNav {
+    background-color: transparent !important;
+    padding-top: 20px !important;
+}
+
+.browseNav, .afterloginNav {
+    background-color: black !important;
+    padding-top: 20px !important;
+}
+
+.navbarBrand {
+    display: flex;
+} 
+
+.navigationOptions ul {
+    display: flex;
+}
+.navigationOptions ul li {
+    list-style-type: none;
+    padding: 0 12px;
+}
+.navigationOptions ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.navbarRight {
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+.navbarRight div {
+    padding: 0 10px;
+}
+
+.navbarRight a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    
+}
+
+.btn-secondary {
+    margin-right: 30px;
+    background-color: black !important;   
+    border-radius: 2px !important;
+
+}
+
+.navDisc {
+    margin: 5px 15px 0 0;
+    color: white;
+}
+
+.signInButton, .joinNowButton {
+    background-color: red;
+    border-radius: 2px !important;
+}
+
+.joinNowButton {
+    margin-right: 15px;
+}
+
+.languageDropdown svg {
+    margin-top: -5px;
+}
+
+.dropdown-menu, .data-rr-ui-dropdown-item {
+    min-width: 125px !important;
+    border-radius: 0 !important;
+}
+
+.signOutButton {
+    background-color: black !important;
+    border: solid 1px rgb(196, 194, 194) !important;
+    border-radius: 2px !important;
+}
+
+.videoInput {
+    width: 230px;
+    margin-right: -15px;
+}
+.videoInput .rbt-input-main {
+    padding-left: 40px;
+    color: white;
+    background-color: black;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 0;
+    background-image: url('../images/searchIcon.png');
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: left 10px top 11px;
+}
+
+.videoInput input:focus {
+    background-color: black;
+    color: white;
+}
+
+.videoInput .rbt-menu a{
+    color: black;
+}
+
+.videoInput .rbt-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.searchIcon {
+    font-size: 30px;
+    margin-right: -15px;
+    margin-top: -8px;
+    display: block;
+}

@@ -1,0 +1,51 @@
+footer {
+    overflow: hidden;
+    background-color: #000;
+    color: #737373;
+    padding: 60px 0 30px 0;
+    text-align: left;
+}
+
+.footerHeading {
+    letter-spacing: 0.015cm;
+    padding-left: 30px;
+    font: normal normal 400 15px 'Inter Tight', sans-serif;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #737373;
+    letter-spacing: 0.015cm;
+    font: normal normal 400 11px/1.1 'Inter Tight', sans-serif;
+}
+
+footer ul li a:hover{
+    color: #737373;
+    text-decoration: underline;
+}
+
+footer .languageDropdown {
+    padding-left: 35px;
+    width: 100px;
+}
+
+footer .languageDropdown li {
+    width: 106px;
+}
+
+footer .languageDropdown button {
+    height: 45px;
+    width: 110px;
+    color: #999;
+    border: solid 1px #737373;    
+}
+
+.netflixIndia {
+    font: normal normal 400 13px/1.1 'Inter Tight', sans-serif;
+    padding-left: 35px;
+    padding-top: 20px;
+}

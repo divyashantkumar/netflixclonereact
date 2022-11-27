@@ -1,0 +1,30 @@
+section {
+    color: white;
+    border-bottom: 8px solid #222;
+    background-color: #000;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.sectionOne h1,  .sectionTwo h1, .sectionThree h1, .sectionFour h1, .sectionFive h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.sectionOne h2, .sectionTwo h2, .sectionThree h2, .sectionFour h2 {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.sectionOneCol, .sectionTwoCol, .sectionThreeCol, .sectionFourCol {
+    width: 470px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.sectionOneCol, .sectionTwoCol {
+    height: 380px;
+    position: relative;
+}

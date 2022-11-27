@@ -1,0 +1,46 @@
+.videolist{
+    background-color:transparent;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.videolist > p {
+    margin-bottom: 8px;
+    padding: 0 45px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.videolist > div {
+    display: flex;
+    padding: 0 18px;
+}
+
+.videolist > div button {
+    height: 168px;
+    background-color: rgba(22, 22, 22, 0);
+    border: none;
+    color: red;
+    font-size: 45px;
+    padding: 0 5px;
+}
+
+.videolist .listContainer {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.videolist .listContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.videolist .listContainer > div {
+    width: 315px;
+    padding: 0 7px;
+    text-align: center;
+
+}
+
+.videoCard:hover {
+    cursor: pointer;
+}
